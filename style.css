@@ -1,0 +1,63 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.cabeçalho{
+    display: flex;
+   gap: 50px;
+    justify-content: space-between;
+    justify-content: center;
+    margin-top: 30px;
+    
+
+}
+
+.barradepesquisa{
+    width: 500px;
+    height: 40px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    border: none;
+    position: relative;
+
+
+
+}
+
+.lupa{
+    position:relative
+}
+
+.botao1{
+    background-color: #fff;
+    border: none;
+    width: 114px;
+    height: 40px;
+    text-decoration: underline;
+
+}
+
+.botao2{
+    background-color: #C92071;
+    width: 114px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.menu button{
+    margin-left: 25px;
+    margin-top: 50px;
+    border: none;
+    background-color: #fff
+
+}
+
+.carrossel{
+    display: flex;
+    margin-top: 50px;
+    background-color: gainsboro;
+}
