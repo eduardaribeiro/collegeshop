@@ -15,20 +15,45 @@
 }
 
 .barradepesquisa{
-    width: 500px;
+    display: flex;
+    width: 400px;
     height: 40px;
     background-color: whitesmoke;
     border-radius: 8px;
-    border: none;
-    position: relative;
+    border:none;
+    
+    
 
 
 
 }
 
 .lupa{
-    position:relative
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 80px;
+    background-color: none;
+    margin: -35px;
+   
+    
+    
+
 }
+
+.lupabarra{
+display: flex;
+justify-content: space-between;
+align-items: center;
+cursor: pointer;
+
+
+
+
+}
+
+
+
 
 .botao1{
     background-color: #fff;
@@ -61,3 +86,9 @@
     margin-top: 50px;
     background-color: gainsboro;
 }
+.conteudoesquerda{
+    margin-left: 100px;
+
+
+}
+
